@@ -4,6 +4,7 @@ Initialize and assign a value to an integer, float, and char variable. Then prin
 
 ## Example Output
 <hr>
+
 ```
 iamgroot: ~/Learning-C/ $ gcc assignment2.c
 $ ./a.out
