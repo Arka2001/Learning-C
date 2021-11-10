@@ -45,7 +45,7 @@ void main() {
 
     avg = (float) sum/size;
 
-    printf("\n%f is the average\n", avg);
+    printf("\n%0.2f is the average\n", avg);
 
     free(arr);    //* Finally free all the memory allocated to the array to prevent memory leaks
 
