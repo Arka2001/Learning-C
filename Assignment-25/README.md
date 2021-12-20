@@ -73,7 +73,7 @@ $ cat testfile.txt
 Writing test data to the file
 ```
 
-Now, to build in some error handling. The codewiki page tells us that the return value is the number of bytes we wrote to the file, so we know that if we don't get a `30` return value, our operation didn't succeed. Let's add some logic to save the return value in the variable `writertn` and return a `-1` if it fails.
+Now, to build in some error handling. The codewiki page tells us that the return value is the number of bytes we wrote to the file, so we know that if we don't get a `30` return value, our operation didn't succeed. Let's add some logic to save the return value in the variable `writer` and return a `-1` if it fails.
 
 Our code looks like this:
 
