@@ -22,7 +22,4 @@ void main(){
 
     ptr->integer = 7;
     printf("%d\n", test.integer);
-    
-    
-    
 }
