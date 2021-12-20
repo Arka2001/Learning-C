@@ -120,6 +120,7 @@ int main (void)
 
 Running the program seems to indicate successes with both operations:
 
+```
 iamgroot:~/Learning-C/Assignment-25/
 $ gcc assignment25.c -o assignment25
 $ ./assignment25
@@ -127,3 +128,4 @@ The open operation succeeded!
 The write operation succeeded!
 $ cat testfile.txt
 Writing test data to the file.
+```
